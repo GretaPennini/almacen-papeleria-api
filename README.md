@@ -1,5 +1,7 @@
 # almacen-papeleria-api
 
+![CI](https://github.com/GretaPennini/almacen-papeleria-api/actions/workflows/ci.yml/badge.svg)
+
 API REST del almacén de una papelería, hecha con Spring Boot (Java 21), Spring Data JPA y PostgreSQL.
 Permite consultar el catálogo de artículos y los datos básicos de cada uno, indicando si está agotado.
 
@@ -119,10 +121,10 @@ src/main/resources/  application*.properties, schema.sql, data.sql
 ## Equipo y flujo de trabajo
 
 | Integrante | Rol |
-|------------|-----|
-| _Nombre 1_ | _Planificación_ |
-| _Nombre 2_ | _Documentación_ |
-| _Nombre 3_ | _Integración del código_ |
+|---|---|
+| _Greta Pennini_ | Planificación, Documentación, Integración del código |
+| _Mari Piñero_ | Documentación, Integración del código |
+| _Andrés Rabal_ | Documentación, Integración del código |
 
 - Cada tarea es una **Issue** y se planifica en **Projects**; la documentación funcional está en la **wiki**.
 - Una rama por tarea (`feat/...`, `docs/...`) y *Pull Request* revisado por otra persona antes de fusionar a `main`.
@@ -131,4 +133,6 @@ src/main/resources/  application*.properties, schema.sql, data.sql
 
 ## Uso de IA
 
-_Declarar aquí qué se ha consultado a una IA (comandos, errores…). Nunca se introducen contraseñas ni claves._
+Se ha recurrido al uso de la IA en los siguientes casos:
+- Consultas para el código (no creado directamente con IA).
+- Creación de plantillas para la documentación.
