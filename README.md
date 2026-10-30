@@ -1,5 +1,7 @@
 # almacen-papeleria-api
 
+![CI](https://github.com/GretaPennini/almacen-papeleria-api/actions/workflows/ci.yml/badge.svg)
+
 API REST del almacén de una papelería, hecha con Spring Boot (Java 21), Spring Data JPA y PostgreSQL.
 Permite consultar el catálogo de artículos y los datos básicos de cada uno, indicando si está agotado.
 
@@ -119,16 +121,32 @@ src/main/resources/  application*.properties, schema.sql, data.sql
 ## Equipo y flujo de trabajo
 
 | Integrante | Rol |
-|------------|-----|
-| _Nombre 1_ | _Planificación_ |
-| _Nombre 2_ | _Documentación_ |
-| _Nombre 3_ | _Integración del código_ |
+|---|---|
+| _Greta Pennini_ | Planificación, Documentación, Integración del código |
+| _Mari Piñero_ | Documentación, Integración del código, Comprobación de CI |
+| _Andrés Rabal_ | Documentación, Integración del código |
 
 - Cada tarea es una **Issue** y se planifica en **Projects**; la documentación funcional está en la **wiki**.
-- Una rama por tarea (`feat/...`, `docs/...`) y *Pull Request* revisado por otra persona antes de fusionar a `main`.
+- Una rama por tarea (`feat/...`, `docs/...`) y *Pull Request* revisado por otra persona antes de fusionar a `develop`. Una vez finalizado el proyecto, `develop` se fusiona con `main`.
 - Commits en formato convencional referenciando la issue, p. ej. `feat: añade endpoint de datos básicos (#4)`.
 - Los roles rotan entre prácticas.
 
 ## Uso de IA
 
-_Declarar aquí qué se ha consultado a una IA (comandos, errores…). Nunca se introducen contraseñas ni claves._
+Durante la realización del proyecto se ha utilizado IA como herramienta de apoyo en los siguientes casos:
+
+### Greta Penini
+- Consultas para el código (no creado directamente con IA).
+- Creación de plantillas para la documentación.
+
+### Mari Piñero
+- Consultas para el código.
+- Resolución de dudas sobre ramas y fusiones.
+- Apoyo para realizar la prueba de CI (como provocar el fallo)
+- Dudas sobre la redacción de la wiki
+
+### Andrés Rabal
+- Consultas para el código.
+- Creación de plantillas para la documentación.
+
+La IA se ha utilizado como herramienta de consulta y aprendizaje. Las operaciones y comprobaciones se han realizado personalmente.
