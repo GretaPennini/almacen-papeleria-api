@@ -145,8 +145,8 @@ Durante la realización del proyecto se ha utilizado IA como herramienta de apoy
 - Apoyo para realizar la prueba de CI (como provocar el fallo)
 - Dudas sobre la redacción de la wiki
 
-La IA se ha utilizado como herramienta de consulta y aprendizaje. Las operaciones y comprobaciones se han realizado personalmente.
-
 ### Andrés Rabal
 - Consultas para el código.
 - Creación de plantillas para la documentación.
+
+La IA se ha utilizado como herramienta de consulta y aprendizaje. Las operaciones y comprobaciones se han realizado personalmente.
