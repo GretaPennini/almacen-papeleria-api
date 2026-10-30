@@ -67,6 +67,4 @@ public class ArticuloController {
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }
-
-    ESTOY_PROVOCANDO_UN_ERROR_DE_COMPILACION
 }
