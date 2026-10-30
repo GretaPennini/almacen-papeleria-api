@@ -123,16 +123,26 @@ src/main/resources/  application*.properties, schema.sql, data.sql
 | Integrante | Rol |
 |---|---|
 | _Greta Pennini_ | Planificación, Documentación, Integración del código |
-| _Mari Piñero_ | Documentación, Integración del código |
+| _Mari Piñero_ | Documentación, Integración del código, Comprobación de CI |
 | _Andrés Rabal_ | Documentación, Integración del código |
 
 - Cada tarea es una **Issue** y se planifica en **Projects**; la documentación funcional está en la **wiki**.
-- Una rama por tarea (`feat/...`, `docs/...`) y *Pull Request* revisado por otra persona antes de fusionar a `main`.
+- Una rama por tarea (`feat/...`, `docs/...`) y *Pull Request* revisado por otra persona antes de fusionar a `develop`. Una vez finalizado el proyecto, `develop` se fusiona con `main`.
 - Commits en formato convencional referenciando la issue, p. ej. `feat: añade endpoint de datos básicos (#4)`.
 - Los roles rotan entre prácticas.
 
 ## Uso de IA
 
-Se ha recurrido al uso de la IA en los siguientes casos:
+Durante la realización del proyecto se ha utilizado IA como herramienta de apoyo en los siguientes casos:
+
+### Greta Penini
 - Consultas para el código (no creado directamente con IA).
 - Creación de plantillas para la documentación.
+
+### Mari Piñero
+- Consultas para el código.
+- Resolución de dudas sobre ramas y fusiones.
+- Apoyo para realizar la prueba de CI (como provocar el fallo)
+- Dudas sobre la redacción de la wiki
+
+La IA se ha utilizado como herramienta de consulta y aprendizaje. Las operaciones y comprobaciones se han realizado personalmente.
